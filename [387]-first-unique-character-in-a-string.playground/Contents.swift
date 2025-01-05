@@ -23,19 +23,19 @@ class Solution {
 }
 
 class SolutionTests: XCTestCase {
-    func firstTestCase() {
+    func testFirstCase() {
         let solution = Solution()
         let result = solution.firstUniqChar("leetcode")
         XCTAssertEqual(result, 0)
     }
     
-    func secondTestCase() {
+    func testSecondCase() {
         let solution = Solution()
         let result = solution.firstUniqChar("loveleetcode")
         XCTAssertEqual(result, 2)
     }
     
-    func thirdTestCase() {
+    func testThirdCase() {
         let solution = Solution()
         let result = solution.firstUniqChar("")
         XCTAssertEqual(result, -1)
